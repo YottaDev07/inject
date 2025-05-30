@@ -1042,20 +1042,20 @@
         );
         return;
       }
-      (s.webchatIframe = je(
+      s.webchatIframe = je(
         p,
         s.webchatId,
         n,
         "webchat",
         s.configuration?.additionalStylesheetUrl
-      )),
-        (s.fabIframe = je(
-          p,
-          s.fabId,
-          i,
-          "fab",
-          s.configuration?.additionalStylesheetUrl
-        ));
+      );
+      // (s.fabIframe = je(
+      //   p,
+      //   s.fabId,
+      //   i,
+      //   "fab",
+      //   s.configuration?.additionalStylesheetUrl
+      // ));
       const v = s.configuration?.radius ?? 1;
       O();
       const d = document.createElement("style"),

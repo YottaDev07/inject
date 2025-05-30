@@ -14,7 +14,7 @@
 
   const injectScript = document.createElement("script");
   injectScript.src =
-    "https://cdn.jsdelivr.net/gh/YottaDev07/inject@v1.0.1/inject.js";
+    "https://cdn.jsdelivr.net/gh/YottaDev07/inject@v1.0.3/inject.js";
   injectScript.async = true;
 
   injectScript.onload = () => {
@@ -33,7 +33,7 @@
           webchatScriptUrl:
             "https://cdn.botpress.cloud/webchat/v2.5/webchat.js",
           fabScriptUrl: "https://cdn.botpress.cloud/webchat/v2.5/fab.js",
-          defaultState: "closed",
+          defaultState: "opened",
           configuration: {
             composerPlaceholder:
               "I'm your small busines advisor! How can I help?",
