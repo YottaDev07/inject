@@ -13,7 +13,8 @@
   }
 
   const injectScript = document.createElement("script");
-  injectScript.src = "./inject.js";
+  injectScript.src =
+    "https://cdn.jsdelivr.net/gh/YottaDev07/inject@v1.0.0/inject.js";
   injectScript.async = true;
 
   injectScript.onload = () => {
